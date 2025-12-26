@@ -1,28 +1,4 @@
-# 敏感文件
-api_keys.txt
-config.json
-
-# 中间文件
-checkpoint.json
-debug_sample.csv
-
-# 数据文件
-*.csv
-*.txt
-*.docx
-*.xls
-*.xlsx
-
-# 输出目录
-result/
-
-# 系统文件
 .DS_Store
 __pycache__/
 *.pyc
 
-# 但保留示例和说明
-!api_keys.txt.example
-!README.md
-!test/
-!test/*
