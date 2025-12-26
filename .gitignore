@@ -23,5 +23,6 @@ __pycache__/
 
 # 但保留示例和说明
 !api_keys.txt.example
-!对齐原理说明.md
 !README.md
+!test/
+!test/*
