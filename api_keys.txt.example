@@ -1,0 +1,7 @@
+# API密钥配置文件
+# 每行一个密钥，以 # 开头的行会被忽略
+# 使用时请将此文件复制为 api_keys.txt
+
+sk-your-api-key-1
+sk-your-api-key-2
+sk-your-api-key-3
