@@ -144,13 +144,15 @@ def calculate_ranges(full_text, paragraphs):
     """计算合并后段落在全文中的位置范围"""
     total_len = len(full_text)
     ranges = []
+    search_start = 0
 
     for para in paragraphs:
-        start = full_text.find(para)
+        start = full_text.find(para, search_start)
         if start == -1:
             continue
         end = start + len(para)
         ranges.append((para, start/total_len, end/total_len))
+        search_start = end
 
     return ranges
 
